@@ -1,0 +1,65 @@
+html {
+    margin: 0;
+}
+
+
+li  {
+    list-style: none;
+   
+}
+
+
+h1 {
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+    margin-left: 1rem;
+}
+
+input {
+    font-size: 1.6rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+
+.addBtn {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(47, 201, 240);
+}
+
+
+button, span {
+    margin-left: 6rem;
+}
+
+.todo {
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+  max-width:500px;
+  margin-right: 0;
+  background: linear-gradient(to right, #f7f7f7 54%,#f2f4f5 100%);
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  margin-left: -2rem;
+  box-shadow:5px 5px 10px rgba(0,0,0,0.3); 
+}
